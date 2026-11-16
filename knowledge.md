@@ -117,7 +117,7 @@ The Shins
 
 Big Thief
 
-Indie Pop
+## Indie Pop
 
 The 1975
 
@@ -161,7 +161,7 @@ Mother Love Bone
 
 Silverchair
 
-Shoegaze
+## Shoegaze
 
 My Bloody Valentine
 
@@ -293,7 +293,7 @@ Summer Walker
 
 D'Angelo
 
-Soul
+## Soul
 
 Marvin Gaye
 
