@@ -1,12 +1,12 @@
 /* ---------- Colors (light mode) ---------- */
 :root {
   --brand: #2b1a4a;            /* gets replaced by themeColor in config.js */
-  --bg: #dcccf3;
+  --bg: #0d0d0d;
   --surface: #ffffff;
   --text: #1f1f23;
   --muted: #6b6b76;
-  --border: #e2e2e8;
-  --bot-bubble: #ffffff;
+  --border: #295fff;
+  --bot-bubble: #d0d3d3;
   --user-text: #ffffff;
 }
 
