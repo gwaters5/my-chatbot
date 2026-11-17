@@ -23,10 +23,22 @@
       </div>
     </header>
 
-    <!-- Shows how many notes are loaded (or a message if something is wrong) -->
+    <!-- Shows how many notes are loaded -->
     <div class="status" id="statusLine" role="status"></div>
 
-    <main class="messages" id="messages" aria-live="polite"></main>
+    <main class="messages" id="messages" aria-live="polite">
+
+      <!-- Typing Indicator -->
+      <div id="typingIndicator" class="typing-indicator" aria-live="polite">
+        <div class="typing-dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <p>AuxBot is thinking...</p>
+      </div>
+
+    </main>
 
     <div class="starters" id="starters"></div>
 
