@@ -13,12 +13,12 @@
 /* ---------- Colors (dark mode, follows your device setting) ---------- */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #231738;
+    --bg: #0d0d0d;
     --surface: #1b1b1f;
     --text: #ececf0;
-    --muted: #9a9aa5;
-    --border: #2d2d34;
-    --bot-bubble: #25252b;
+    --muted: #6b6b76;
+    --border: #295fff;
+    --bot-bubble: #d0d3d3;
   }
 }
 
