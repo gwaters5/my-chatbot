@@ -335,10 +335,22 @@ body {
   .btn { padding: 8px 12px; }
 }
 
-/* ---------- Dark mode: keep dark-purple items visible ---------- */
-@media (prefers-color-scheme: dark) {
-  .bubble.user { border: 1px solid #7a5cc4; }
-  .starter { border-color: #7a5cc4; }
+/* ---------- Updated message and starter styling ---------- */
+.bubble.user {
+  background: #E2E5E9;
+  color: #111111;
+  border: 1px solid #A8BBD0;
+}
+
+.starter {
+  background: #7892AA;
+  color: #111111;
+  border: 1px solid #A8BBD0;
+}
+
+.starter:hover {
+  background: #A8BBD0;
+  color: #111111;
 }
 
 /* ---------- Copy button under bot replies ---------- */
@@ -358,4 +370,34 @@ body {
 .copy-btn:hover {
   color: var(--text);
   border-color: var(--muted);
+}
+/* ---------- Updated color theme ---------- */
+
+html, body {
+  background-color: #17212B !important;
+}
+
+.app {
+  background-color: #7892AA !important;
+}
+
+.messages,
+.starters {
+  background-color: #17212B !important;
+}
+
+.bubble.bot,
+.bubble.user {
+  background-color: #E2E5E9 !important;
+  color: #111111 !important;
+  border-color: #A8BBD0;
+}
+
+.composer {
+  background-color: #7892AA !important;
+}
+
+.composer textarea {
+  background-color: #E2E5E9 !important;
+  color: #111111 !important;
 }
