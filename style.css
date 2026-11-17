@@ -339,3 +339,22 @@ body {
   .bubble.user { border: 1px solid #7a5cc4; }
   .starter { border-color: #7a5cc4; }
 }
+
+/* ---------- Copy button under bot replies ---------- */
+.copy-btn {
+  display: block;
+  margin-top: 8px;
+  font: inherit;
+  font-size: 13px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  color: var(--text);
+  border-color: var(--muted);
+}
