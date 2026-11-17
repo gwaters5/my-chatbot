@@ -400,3 +400,12 @@ body {
     padding: 8px 12px;
   }
 }
+
+.thinking-label {
+  display: block;
+}
+
+.thinking::before,
+.thinking::after {
+  content: none !important;
+}
