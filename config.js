@@ -56,7 +56,7 @@ STYLE:
   model: "gemini-flash-latest",
 
   // Main color of the site (a hex color code)
-  themeColor: "#2b1a4a",
+  themeColor: "#295fff",
 
 
   // ===================================================================
