@@ -1,24 +1,25 @@
 /* ---------- Colors (light mode) ---------- */
 :root {
-  --brand: #2b1a4a;            /* gets replaced by themeColor in config.js */
-  --bg: #0d0d0d;
-  --surface: #ffffff;
-  --text: #0d0d0d;
-  --muted: #6b6b76;
-  --border: #295fff;
-  --bot-bubble: #d0d3d3;
-  --user-text: #ffffff;
+  --brand: #7892aa;
+  --bg: #080a0d;
+  --surface: #7892aa;
+  --text: #111111;
+  --muted: #394653;
+  --border: #a8bbd0;
+  --bot-bubble: #e2e5e9;
+  --user-text: #111111;
 }
 
 /* ---------- Colors (dark mode, follows your device setting) ---------- */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0d0d0d;
-    --surface: #1b1b1f;
-    --text: #ececf0;
-    --muted: #6b6b76;
-    --border: #295fff;
-    --bot-bubble: #d0d3d3;
+    --bg: #080a0d;
+    --surface: #7892aa;
+    --text: #111111;
+    --muted: #394653;
+    --border: #a8bbd0;
+    --bot-bubble: #e2e5e9;
+    --user-text: #111111;
   }
 }
 
