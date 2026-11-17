@@ -226,15 +226,6 @@ body {
   gap: 5px;
 }
 
-.thinking::before {
-  content: "AuxBot is typing...";
-  flex-basis: 100%;
-  display: block;
-  font-size: 13px;
-  color: #394653;
-  margin-bottom: 2px;
-}
-
 .thinking span {
   display: block;
   width: 7px;
