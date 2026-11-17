@@ -218,23 +218,21 @@ body {
 }
 
 
-/* ---------- AuxBot Thinking Indicator ---------- */
-.thinking-bubble {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.thinking-label {
-  font-size: 13px;
-  color: #394653;
-}
-
+/* ---------- AuxBot Typing Indicator ---------- */
 .thinking {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 5px;
-  padding: 3px 0;
+}
+
+.thinking::before {
+  content: "AuxBot is typing...";
+  flex-basis: 100%;
+  display: block;
+  font-size: 13px;
+  color: #394653;
+  margin-bottom: 2px;
 }
 
 .thinking span {
