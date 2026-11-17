@@ -483,8 +483,17 @@ function addSources(bubble, notes) {
 
 function addThinking() {
   const div = document.createElement("div");
-  div.className = "bubble bot";
-  div.innerHTML = '<div class="thinking" aria-label="Thinking"><span></span><span></span><span></span></div>';
+  div.className = "bubble bot thinking-bubble";
+
+  div.innerHTML = `
+    <div class="thinking-label">AuxBot is typing...</div>
+    <div class="thinking">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  `;
+
   messagesEl.appendChild(div);
   scrollToBottom();
   return div;
